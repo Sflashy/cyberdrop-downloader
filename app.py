@@ -1,3 +1,9 @@
+#
+# * S-Name:		cyberdrop-downloader
+# * Author:		Sflashy#7643 - sflashy@mail.com
+# * Date:		01/08/2021
+#
+
 import re, sys, os
 from datetime import datetime
 from multiprocessing.pool import ThreadPool
