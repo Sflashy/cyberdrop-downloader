@@ -1,2 +1,2 @@
 ### Usage
-app.py [URL] or [Album-ID]
+app.py [URL] or [ALBUM-ID]
