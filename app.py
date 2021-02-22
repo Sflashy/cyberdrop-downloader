@@ -40,7 +40,7 @@ class CyberDrop:
             os.mkdir('./downloads')
 
     def downloadImages(self, url):
-        fileExt = re.search(r'(\.mp4|\.gif|\.jpg|\.png|\.webm|\.jpeg|\.m4v)', url).group(1)
+        fileExt = re.search(r'(\.mp4|.mov|\.m4v|\.ts|\.mkv|\.avi|\.wmv|\.webm|\.vob|\.gifv|\.mpg|\.mpeg|\.mp3|\.flac|\.wav|\.png|\.jpeg|\.jpg|\.gif|\.bmp|\.webp|\.heif|\.tiff|\.svf|\.svg|\.ico|\.psd|\.ai|\.pdf|\.txt|\.log|\.csv|\.xml|\.cbr|\.zip|\.rar|\.7z|\.tar|\.gz|\.iso|\.torrent|\.kdbx)', url).group(1)
         fileName = uuid4().hex
         while(True):
             try:
