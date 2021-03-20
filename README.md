@@ -1,6 +1,6 @@
 ### Usage
 ```
-app.py -u [URL] -d [DIRECTORY] -f [FOLDERNAME]
+app.py -u [URL] or [ALBUM-ID] -d [DIRECTORY] -f [FOLDERNAME]
 ```
 ### Examples
 ```
